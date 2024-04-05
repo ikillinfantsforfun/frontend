@@ -10,7 +10,7 @@ function LEVEL1() {
   const navigate = useNavigate();
 
   async function senddatafrombackend(response){
-    const data=await axios.post('/api/ans/level1', { level1ans: response })
+    const data=await axios.post('https://backend-6zi5.onrender.com/api/ans/level1', { level1ans: response })
     return data.data;
 
   }

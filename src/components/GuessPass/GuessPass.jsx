@@ -61,7 +61,7 @@ function GuessPass(){
   const alphabets = ['@', 'K', 'C', 'A', 'D', 'F', 'C', 'R', 'I', 'S'];
 
   async function senddatafrombackend(response){
-    const data=await axios.post('/api/ans/level5', { level5ans: response })
+    const data=await axios.post('https://backend-6zi5.onrender.com/api/ans/level5', { level5ans: response })
     return data.data;
   }
   async function clickHandler(e){

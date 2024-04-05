@@ -11,7 +11,7 @@ const [password,setPassword] = useState('')
 const handleSubmit = (e) => {
   e.preventDefault();
 
-  axios.post('http://localhost:8000/api/v1/users/register', {
+  axios.post('https://backend-6zi5.onrender.com/api/v1/users/register', {
     username,
     email,
     password
