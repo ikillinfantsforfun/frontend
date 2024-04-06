@@ -76,7 +76,7 @@ function LEVEL1() {
               Submit
             </button>
           </form>
-          <div className=" p-6 bg-black  rounded-md shadow-md mt-4  text-white">Hient </div>
+          <div className=" p-6 bg-black  rounded-md shadow-md mt-4  text-white">Hook</div>
         </div>
       ) : (
         <>
